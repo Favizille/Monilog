@@ -28,9 +28,12 @@ Follow these steps to run the project locally:
    composer install
    npm install
 4. Create Config .env file
+   ```bash
    cp .env.example .env
    php artisan key:generate
-5. Setup Database
+6. Setup Database
+   ```bash
    php artisan migrate --seed
-6. Start server
+8. Start server
+   ```bash
    php artisan serve
