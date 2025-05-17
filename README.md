@@ -24,12 +24,13 @@ Follow these steps to run the project locally:
    git clone https://github.com/Favizille/Monilog.git
    cd Monilog
 2. Install Dependencies
+   ```bash
    composer install
    npm install
-3. Create Config .env file
+4. Create Config .env file
    cp .env.example .env
    php artisan key:generate
-4. Setup Database
+5. Setup Database
    php artisan migrate --seed
-5. Start server
+6. Start server
    php artisan serve
